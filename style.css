@@ -1,0 +1,58 @@
+.carousel-item{
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 18px;
+}
+.containerx{
+    display: flex;
+}
+.card-1{
+    padding-top: 15px;
+    padding-left: 21px;
+    padding-right: 10px;
+    
+}
+.card-2{
+    padding-top: 15px;
+    padding-left: 11px;
+    padding-right: 2px;
+}
+.card-3{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 14px;
+}
+.card-img-top{
+    height: 280px;
+}
+.card-header{
+    position: relative;
+    top: -4px;
+    margin: 12px;
+}
+.card-body{
+    margin: 12px;
+}
+.card-footer{
+    margin: 12px;
+}
+#accordionFlushExample{
+    padding: 12px;
+}
+.head{
+    border-bottom: 1px solid;
+}
+.m-3{
+    width: 98%;
+}
+@media only screen and (max-width: 600px){
+    .containerx{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .card-1, .card-2, .card-3{
+        width: 21rem !important;
+        margin-top: 25px;
+    }
+}
